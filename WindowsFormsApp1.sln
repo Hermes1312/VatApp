@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatApp", "WindowsFormsApp1\VatApp.csproj", "{40B97F7B-AFC6-4297-832D-A045E89A2634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatApp.UnitTests", "VatApp.UnitTests\VatApp.UnitTests.csproj", "{B95E1E89-B86C-4164-9B1B-1F859916B3A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TEST|Any CPU = TEST|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.TEST|Any CPU.ActiveCfg = TEST|Any CPU
+		{40B97F7B-AFC6-4297-832D-A045E89A2634}.TEST|Any CPU.Build.0 = TEST|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.TEST|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95E1E89-B86C-4164-9B1B-1F859916B3A1}.TEST|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81C76E93-3C04-49B5-AAB5-C80ACD58C923}
+	EndGlobalSection
+EndGlobal
